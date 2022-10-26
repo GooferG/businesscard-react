@@ -1,0 +1,63 @@
+.content-body {
+  background-color: #1a1b21;
+  width: 317px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btns > button {
+  padding: 8px 20px;
+}
+
+.content-text {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.content-title {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: -10px;
+}
+
+.content-info > h3 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.content-info > h1 {
+  margin-bottom: -10px;
+}
+
+.content-info > h3 {
+  color: orange;
+}
+
+.linkedin {
+  background-color: #5093e2;
+}
+
+.email {
+  background-color: #ffffff;
+  color: black;
+}
+
+.btn {
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.text {
+  padding: 0 10px;
+  font-weight: 100;
+}
