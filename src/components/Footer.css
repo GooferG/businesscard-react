@@ -11,3 +11,12 @@
   gap: 25px;
   font-size: 30px;
 }
+
+.footer > a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer > a:hover {
+  color: whitesmoke;
+}

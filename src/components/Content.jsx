@@ -14,11 +14,11 @@ const Content = (props) => {
       <div className="btns">
         <button className="email btn">
           <FontAwesomeIcon icon={faEnvelope} />
-          Email
+          <a href="http://luizmeneghim.com">Email Me</a>
         </button>
         <button className="linkedin btn">
           <FontAwesomeIcon icon={faLinkedin} />
-          LinkedIn
+          <a href="https://www.linkedin.com/in/lmeneghim/">LinkedIn</a>
         </button>
       </div>
       <div className="text">
@@ -31,8 +31,9 @@ const Content = (props) => {
       <div className="text">
         <h3 className="content-title">Interests</h3>
         <p className="content-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          quisquam obcaecati, nihil eius natus voluptatum!
+          Felt in love with programming this year and haven't looked back! I
+          also love making music and filming silly skits. I also enjoy video
+          games and anything pop culture related
         </p>
       </div>
     </div>

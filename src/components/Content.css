@@ -26,6 +26,7 @@
   text-align: left;
   padding-left: 20px;
   margin-bottom: -10px;
+  margin-top: 7px;
 }
 
 .content-info > h3 {
@@ -45,9 +46,26 @@
   background-color: #5093e2;
 }
 
+.linkedin > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.linkedin:hover {
+  background-color: #398be8;
+}
+
 .email {
   background-color: #ffffff;
   color: black;
+}
+
+.email > a {
+  text-decoration: none;
+  color: #1a1b21;
+}
+
+.email:hover {
+  background-color: antiquewhite;
 }
 
 .btn {

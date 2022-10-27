@@ -12,10 +12,15 @@ const Footer = (props) => {
   return (
     <div className="footer-wrapper">
       <footer className="footer">
-        <FontAwesomeIcon icon={faGithub} />
-        <FontAwesomeIcon icon={faInstagram} />
-        <FontAwesomeIcon icon={faFacebook} />
-        <FontAwesomeIcon icon={faLinkedin} />
+        <a href="https://github.com/gooferG">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a href="https://instagram.com/luimeneghim">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+        <a href="https://www.linkedin.com/in/lmeneghim/">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
       </footer>
     </div>
   );
