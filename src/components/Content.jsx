@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import './Content.css';
 
 const Content = (props) => {
@@ -13,12 +13,12 @@ const Content = (props) => {
       </div>
       <div className="btns">
         <button className="email btn">
-          <FontAwesomeIcon icon={faEnvelope} />
-          <a href="http://luizmeneghim.com">Email Me</a>
+          <FontAwesomeIcon icon={faBriefcase} />
+          <a href="http://luizmeneghim.com"> Portfolio</a>
         </button>
         <button className="linkedin btn">
           <FontAwesomeIcon icon={faLinkedin} />
-          <a href="https://www.linkedin.com/in/lmeneghim/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/lmeneghim/"> LinkedIn</a>
         </button>
       </div>
       <div className="text">
